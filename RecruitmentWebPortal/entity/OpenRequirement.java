@@ -3,7 +3,7 @@ package com.recruit.springboot.RecruitmentWebPortal.entity;
 import jakarta.persistence.*;
 
 @Entity
-@Table(name = "open_requirement") // ✅ Add this annotation
+@Table(name = "open_requirement") 
 public class OpenRequirement {
 
 
