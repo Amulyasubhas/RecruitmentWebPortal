@@ -30,7 +30,7 @@ private Role role;
 
 
     public String getName() {
-        return name;
+       return name;
     }
 
 
@@ -64,7 +64,6 @@ private Role role;
     }
 
 
-    public void setPassword(Object password) {
-        this.password = (String) password;
-    }
-}
+    public void setPassword(String password) {
+    this.password = password;
+}}

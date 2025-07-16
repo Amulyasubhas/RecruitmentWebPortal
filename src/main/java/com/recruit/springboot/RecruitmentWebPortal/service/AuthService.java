@@ -1,7 +1,6 @@
 package com.recruit.springboot.RecruitmentWebPortal.service;
 
 import com.recruit.springboot.RecruitmentWebPortal.DTO.*;
-import com.recruit.springboot.RecruitmentWebPortal.serviceimpl.ConfirmResetPasswordDTO;
 
 public interface AuthService {
     String sendLoginOtp(LoginRequestDTO dto);
