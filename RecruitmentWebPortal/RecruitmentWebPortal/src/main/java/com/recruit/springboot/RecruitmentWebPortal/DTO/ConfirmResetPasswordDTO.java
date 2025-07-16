@@ -1,11 +1,11 @@
 package com.recruit.springboot.RecruitmentWebPortal.DTO;
-
 public class ConfirmResetPasswordDTO {
     private String email;
     private String otp;
     private String newPassword;
     private String confirmPassword;
 
+    // Ensure proper getter
     public String getEmail() {
         return email;
     }
@@ -37,4 +37,7 @@ public class ConfirmResetPasswordDTO {
     public void setConfirmPassword(String confirmPassword) {
         this.confirmPassword = confirmPassword;
     }
+
+    
 }
+

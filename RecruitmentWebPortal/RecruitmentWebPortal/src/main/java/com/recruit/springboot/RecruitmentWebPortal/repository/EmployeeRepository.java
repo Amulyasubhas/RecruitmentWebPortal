@@ -1,3 +1,4 @@
+
 package com.recruit.springboot.RecruitmentWebPortal.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
